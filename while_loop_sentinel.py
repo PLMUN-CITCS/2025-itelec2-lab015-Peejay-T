@@ -11,5 +11,4 @@ while True:
     except ValueError:
         print("Invalid input. Please enter a numeric value or 'stop'.")
         break  # Exit the loop
-
 print("The total sum is:", total_sum)
