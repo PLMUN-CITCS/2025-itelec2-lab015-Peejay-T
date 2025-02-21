@@ -4,7 +4,7 @@ while True:
  if user_input.strip().lower() == "stop":
   break  # Exit the loop    
  try:
-  number = float(user_input)
+  number = int(user_input)
   total_sum += number
  except ValueError:
   print("Invalid input. Please enter a numeric value or 'stop'.")
