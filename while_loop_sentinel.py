@@ -3,7 +3,6 @@ total_sum = 0
 
 # Start an infinite loop
 while True:
-<<<<<<< HEAD
     # Prompt user for input
     user_input = input("Enter a number (or 'stop' to finish): ").strip().lower()
 
@@ -20,14 +19,3 @@ while True:
 
 # Print the final sum
 print("The total sum is:", total_sum)
-=======
-   user_input = input("Enter a number (or 'stop' to finish): ")    
-   if user_input.strip().lower() == "stop":
-       break  # Exit the loop    
-   try:
-       number = float(user_input)
-       total_sum += number
-   except ValueError:
-       print("Invalid input. Please enter a numeric value or 'stop'.")
-       break  # Exit the loop
- print("The total sum is:", total_sum)
