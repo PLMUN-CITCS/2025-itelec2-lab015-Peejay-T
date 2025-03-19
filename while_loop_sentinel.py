@@ -31,5 +31,3 @@ print("The total sum is:", total_sum)
        print("Invalid input. Please enter a numeric value or 'stop'.")
        break  # Exit the loop
  print("The total sum is:", total_sum)
->>>>>>> c4ca6c98fd5efc12123068382363011d800cb448
-
